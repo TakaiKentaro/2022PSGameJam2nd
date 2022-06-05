@@ -1025,8 +1025,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 31aa51d49fb419f43be9f5f353622996, type: 3}
-    m_FontSize: 150
+    m_Font: {fileID: 12800000, guid: b35a90df912a954438341698d022a196, type: 3}
+    m_FontSize: 200
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1037,7 +1037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: mariokart
+  m_Text: sphere race
 --- !u!222 &1295994437
 CanvasRenderer:
   m_ObjectHideFlags: 0
