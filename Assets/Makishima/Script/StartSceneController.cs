@@ -46,7 +46,7 @@ public class StartSceneController : MonoBehaviour
                 3f // Š—vŽžŠÔ
                 ).OnComplete(() =>
                 {
-                    SceneManager.LoadScene("SampleScene");
+                    SceneManager.LoadScene("StageScene");
                 });    
         }
     }
