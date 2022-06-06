@@ -23,6 +23,12 @@ public class GameManager : MonoBehaviour
     int _count1 = 3;
     int _count2 = 3;
 
+    //時間
+    float _timer;
+
+    [Header("スタートカウントのアニメーション")]
+    [SerializeField, Tooltip("StartAnimObj")] GameObject _startAnimObj;
+
     private void Awake()
     {
         if (Instance == null)
@@ -40,6 +46,7 @@ public class GameManager : MonoBehaviour
         DOTween.ToAlpha(() => _alphaImage.color, color => _alphaImage.color = color,
             0f,
             3f
+        ).OnComplete(() => _startAnimObj.SetActive(true)
         );
         _goalsound = GetComponent<AudioSource>();
         _WinnerSound = _WinnerSound.GetComponent<AudioSource>();
