@@ -924,7 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fed9190363861428d4033ea8dc076c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stageName: Stagecene3
+  _stageName: Stagesene3
   _alphaImage: {fileID: 972348675}
 --- !u!114 &433012218
 MonoBehaviour:
@@ -2723,7 +2723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 14449dc34320f7f4abafbf7b0fa14869, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba87320b493617e4e835008fdd177a00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2877,7 +2877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 14449dc34320f7f4abafbf7b0fa14869, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba87320b493617e4e835008fdd177a00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

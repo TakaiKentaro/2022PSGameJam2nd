@@ -7431,6 +7431,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6530531003829248019, guid: 6aa94fe936747b741a59748a7cb45525, type: 3}
   m_PrefabInstance: {fileID: 1187161955}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &756247877 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3081482712147261293, guid: 6aa94fe936747b741a59748a7cb45525, type: 3}
+  m_PrefabInstance: {fileID: 1187161955}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756247876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77f2ca35c4113844b05ccdcafdfea6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &775922420
 Mesh:
   m_ObjectHideFlags: 0
@@ -9576,6 +9587,10 @@ PrefabInstance:
       value: Player1
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
+      propertyPath: _signalCheck
+      value: 
+      objectReference: {fileID: 756247877}
+    - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: _chedkPoint.Array.size
       value: 14
       objectReference: {fileID: 0}
@@ -9641,11 +9656,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525246, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.909285
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525246, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.03
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525246, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10004,6 +10019,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7739246532990195910, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
+      propertyPath: _signalCheck
+      value: 
+      objectReference: {fileID: 756247877}
+    - target: {fileID: 7739246532990195910, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: _chedkPoint.Array.size
       value: 14
       objectReference: {fileID: 0}
@@ -10069,15 +10088,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195961, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.160677
+      value: 2.69
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195961, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.8199987
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195961, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60.56091
+      value: 58.64
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195961, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: m_LocalRotation.w
