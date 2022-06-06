@@ -8226,6 +8226,14 @@ PrefabInstance:
       value: Player1
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
+      propertyPath: _playerForcePower.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
+      propertyPath: _playerForcePower.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: _chedkPoint.Array.size
       value: 21
       objectReference: {fileID: 0}
@@ -30149,6 +30157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1608428087}
   - component: {fileID: 1608428088}
+  - component: {fileID: 1608428089}
   m_Layer: 0
   m_Name: Deathzone(6)
   m_TagString: Untagged
@@ -30183,6 +30192,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 1, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1608428089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608428086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9131ad24c6292574b954686dd1650bf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deat: {fileID: 974702892}
 --- !u!1 &1615521541
 GameObject:
   m_ObjectHideFlags: 0
@@ -36722,7 +36744,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2066938964
 BoxCollider:
   m_ObjectHideFlags: 0

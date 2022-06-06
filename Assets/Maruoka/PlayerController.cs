@@ -70,6 +70,22 @@ public class PlayerController : MonoBehaviour
         //離している間の処理
         //else
         //{
+        //    //プレイヤーからチェックポイントまでの方向ベクトルを取得する
+        //    Vector3 directionVector = _nextPoint.GetChild(0).position - _transform.position;
+
+        //    //方向ベクトルをノーマライズ化
+        //    directionVector = directionVector.normalized;
+
+        //    if (Input.GetButton("Jump"))
+        //    {
+        //        Debug.Log(directionVector);
+        //    }
+        //    rb.velocity = new Vector3(rb.velocity.x * directionVector.x * 1f, rb.velocity.y, rb.velocity.z * directionVector.z * 1f);
+        //}
+
+        //離している間の処理
+        //else
+        //{
         //    //速度がほとんどでていなければ何もしない
         //    if ((Mathf.Abs(rb.velocity.x) < 0.3f || Mathf.Abs(rb.velocity.z) < 0.3f))
         //    {
