@@ -8219,7 +8219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525234, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525235, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: m_Name
@@ -8227,11 +8227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: _playerForcePower.x
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: _playerForcePower.z
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3837099392327525245, guid: 1b0b441ef75abf84f9acbf2fc1e308ee, type: 3}
       propertyPath: _chedkPoint.Array.size
@@ -35004,11 +35004,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7739246532990195910, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: _playerForcePower.x
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195910, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: _playerForcePower.z
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195910, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: _chedkPoint.Array.size
@@ -35156,7 +35156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739246532990195965, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acf559eb2c638104b8a009e270251ad3, type: 3}
@@ -36744,7 +36744,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &2066938964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36777,7 +36777,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3b68922208b86174ea9b529bb0ddc2b7, type: 2}
+  - {fileID: 2100000, guid: 3f83ccf47c619e546b79271b08566ed1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
