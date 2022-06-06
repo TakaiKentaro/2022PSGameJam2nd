@@ -48,8 +48,6 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("チェックポイントがアサインされていません");
         }
-
-
         _nowPoint = _chedkPoint[0];
     }
 
@@ -69,6 +67,21 @@ public class PlayerController : MonoBehaviour
         {
             MoveCheckPoint(tr, rb, _nextPoint.GetChild(0));
         }
+        //離している間の処理
+        //else
+        //{
+        //    //速度がほとんどでていなければ何もしない
+        //    if ((Mathf.Abs(rb.velocity.x) < 0.3f || Mathf.Abs(rb.velocity.z) < 0.3f))
+        //    {
+        //        return;
+        //    }
+        //    //そうでなければ減速する
+        //    else
+        //    {
+        //        SeparatedMove(tr, rb, _nextPoint.GetChild(0));
+        //    }
+
+        //}
 
         //旧コード:減速処理を実装しようとした
 
@@ -99,14 +112,27 @@ public class PlayerController : MonoBehaviour
         Vector3 newForce = default;
         newForce.x = directionVector.x * _playerForcePower.x;
         newForce.z = directionVector.z * _playerForcePower.z;
-        //Debug.Log(newForce);
 
         rb.AddForce(newForce.x, rb.velocity.y, newForce.z);
     }
 
-    void ChangeCheckPoint()
+    //離している間の移動処理
+    void SeparatedMove(Transform pt, Rigidbody rb, Transform nextPosition)
     {
-        //指定されたチェックポイントに接触したら次のチェックポイントを指す
+        //プレイヤーからチェックポイントまでの方向ベクトルを取得する
+        Vector3 directionVector = nextPosition.position - pt.position;
+
+        //方向ベクトルをノーマライズ化
+        directionVector = directionVector.normalized;
+
+
+        //力の向きと減速率を掛ける
+        Vector3 newForce = default;
+        //newForce.x = directionVector.x * _playerDeceleratePower.x;
+        //newForce.z = directionVector.z * _playerDeceleratePower.z;
+        rb.velocity -= _playerDeceleratePower;
+
+        rb.AddForce(newForce.x, rb.velocity.y, newForce.z);
     }
 
     //今触れているCheckPointを取得する
