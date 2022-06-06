@@ -1,22 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
+using UnityEngine.UI;
 
 public class retry : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField, Tooltip("AlphaImage")] Image _alphaImage;
+    public void OnClickBackTitle()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetButtonDown("mouse0"))
-        {
-            SceneManager.LoadScene("Demo");
-        }
+        DOTween.ToAlpha(() => _alphaImage.color, color => _alphaImage.color = color,
+            1f,
+            3f
+        ).OnComplete(() => SceneManager.LoadScene("TitleScene")
+        );
     }
 }

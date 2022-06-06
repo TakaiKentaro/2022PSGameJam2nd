@@ -20,8 +20,8 @@ public class GameManager : MonoBehaviour
     AudioSource _goalsound;//Goal‚ÌSound
 
     //c‚è‚Ìü‰ñ”
-    int _count1 = 3;
-    int _count2 = 3;
+    int _count1 = 4;
+    int _count2 = 4;
 
     //ŠÔ
     float _timer;

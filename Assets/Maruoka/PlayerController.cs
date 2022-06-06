@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
     Transform _nowPoint = default;
     Transform _nextPoint = default;
+
+    [SerializeField,Tooltip("スタートしたかの判定")] SignalCheck _signalCheck;
     /// <summary>次のチェックポイントのインデックスを指す</summary>
     int _checkPointManage = 1;
 
@@ -54,6 +56,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (!_signalCheck._sCheck) return;
+
         //移動する
         PlayerMoveManager(_transform, _rb);
         //表示用速度を取得する
