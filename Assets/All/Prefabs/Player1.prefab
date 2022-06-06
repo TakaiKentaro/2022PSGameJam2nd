@@ -61,6 +61,7 @@ MonoBehaviour:
   - {fileID: 0}
   _nowSpeed1: 0
   _nowSpeed2: 0
+  _signalCheck: {fileID: 0}
 --- !u!33 &3837099392327525247
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -88,7 +89,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd51586b34035a340bcb73d7dc27e493, type: 2}
+  - {fileID: 2100000, guid: 4b1b8f3e93c91a542bec023c66b15bc8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
